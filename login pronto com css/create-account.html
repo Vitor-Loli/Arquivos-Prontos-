@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+
+    <link rel="stylesheet" href="assets/css/create-account.css">
+</head>
+<body>
+    <div class="create_div">
+        <form action="application/create-account.php" method="POST" class="form_create">
+
+            <h1 class="titulo_create">Criar Conta</h1>
+
+            <div class="input_group">
+                <label for="txtName" class="label_create">
+                    Nome:
+                </label> <br>
+                <div class="inputs">
+                    <input type="text" name="txtNameCreate" id="txtName" placeholder="Insira seu nome aqui!" class="input_create">
+                </div>
+                
+            </div>
+
+            <div class="input_group">
+                <label for="txtUser" class="label_create">
+                    Usuário:
+                </label> <br>
+                <div class="inputs">
+                    <input type="text" name="txtUserCreate" id="txtUser" placeholder="Insira seu usuário aqui!" class="input_create">
+                </div>
+                
+            </div>
+
+            <div class="input_group">
+                <label for="txtPassword" class="label_create">
+                    Senha:
+                </label> <br>
+                <div class="inputs">
+                    <input type="password" name="txtPasswordCreate" id="txtPassword" placeholder="Insira sua senha aqui!" class="input_create_pass">
+                    <input type="checkbox" name="ckView" id="ckView" onchange="viewPassword()">
+                </div>
+                
+            </div>
+
+            <div class="botao_div">
+                <input type="submit" value="Criar" class="botao_enviar">
+            </div>
+
+            
+
+
+        </form>
+    </div>
+</body>
+
+<script>
+    function viewPassword(){
+
+        $check = document.getElementById('ckView');
+        $input = document.getElementById('txtPassword')
+
+        if($check.checked){
+            $input.type ='text';
+        } else{
+            $input.type = 'password';
+        }
+    }
+</script>
+
+</html>
