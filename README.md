@@ -3,4 +3,4 @@ Hello, my name is Vitor Loli and I'm a systems development technician, I'm a fre
 - 📫 vlolidev@gmail.com
 
 
-*Every Project that needs DataBase have a Dll file inside*
+*Every Project that needs DataBase have a Dll file inside, execute with a DataBase manager*
