@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    transition: ease 0.3s;
+}
+
+body{
+    
+    background-color: #588a87;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.forms{
+    width: 40%;
+    height: 90vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+}
+
+.formCad{
+    width: 60%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px #202020;
+}
+
+.inputs{
+    padding: 2rem;   
+    width: auto;
+    height: auto;
+}
+
+.lb{
+    font-size: 120%;
+}
+
+.texts{
+    width: 100%;
+    font-size: 120%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px gray solid;
+}
+
+.texts:focus{
+    background-color: #588a87;
+    color: #ffffff
+}
+
+.password{
+    width: 91%;
+}
+
+.buttons{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.bttn{
+    width: 40%;
+    font-size: 120%;
+    border-radius: 5px;
+    border: 1px gray solid;
+    padding: 3px;
+}
+
+.submit{
+    background-color: #202020;
+    color: #ffffff; 
+}
+
+.submit:hover{
+    background-color: #588a87;
+    color: #ffffff
+}
+
+.cancel:hover{
+    background-color: #fc3f00;
+    color: #ffffff
+}
+
+.tables{
+    width: 40%;
+    height: 90vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+}
+
+.table{
+    background-color: #ffffff;
+    border: 1px solid #588a87;
+    box-shadow: 5px 5px 5px #202020;
+}
+
+.table th{
+    background-color: #588a87;
+    color: #ffffff;
+    width: 10%;
+}
+
+.table td{
+    text-align: center;
+    border-right: #202020 1px solid;
+    border-left: #202020 1px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

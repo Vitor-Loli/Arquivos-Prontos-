@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main>
+          <div class="forms">
+              <form class="formCad">
+                  <div class="inputs">
+                      <label for="txtID" class="lb">ID</label> <br>
+                      <input type="text" class="texts" name="txtID" value="NOVO" readonly required>
+                  </div>
+
+                  <div class="inputs">
+                      <label for="txtNome" class="lb">Nome</label> <br>
+                      <input type="text" class="texts" name="txtNome" required>
+                  </div>
+
+                  <div class="inputs">
+                      <label for="txtUser" class="lb">Usuário</label> <br>
+                      <input type="text" class="texts" name="txtUser" required>
+                  </div>
+
+                  <div class="inputs">
+                      <label for="txtSenha" class="lb">Senha</label> <br>
+                      <input type="password" class="texts password" name="txtSenha" required>
+                      <i class='bx bxs-lock'></i>
+                  </div>
+
+                  <div class="buttons">
+                      <input type="submit" class="bttn submit">
+                      <input type="reset" class="bttn cancel" value="Cancelar">
+                  </div>
+              </form>
+
+          </div>
+        
+
+        
+          <div class="tables">
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>NOME</th>
+                      <th>USUÁRIO</th>
+                      <th>SENHA</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td> 1</td>
+                      <td>Vitor Loli</td>
+                      <td>vloliDEV</td>
+                      <td>12345</td>
+                    </tr>
+                  </tbody>
+                  
+                </table>
+              </div>
+          </div>
+
+        
+    </main>
+</body>
+</html>
